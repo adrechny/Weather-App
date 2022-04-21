@@ -1,0 +1,68 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.weather-app {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(161, 255, 206) 0%,
+    rgb(250, 255, 209) 90%
+  );
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 900px;
+  border: 2px solid #270082;
+  border-radius: 70px;
+}
+.search-bar,
+.forecast {
+  position: relative;
+  text-align: center;
+}
+.search-bar {
+  margin-top: 15px;
+}
+.btn {
+  background-color: #1f5229;
+  padding: 3px 20px;
+  position: relative;
+  top: -2px;
+}
+.current-button {
+  position: relative;
+  left: 30px;
+  top: -32px;
+  padding: 2px 5px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 1px;
+  color: #270082;
+  font-size: 50px;
+}
+.currently {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color: #270082;
+  font-weight: 500;
+  margin: 10px;
+}
+.forecast {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.col-2 {
+  border: 2px solid #270082;
+  border-radius: 30px;
+  position: relative;
+  left: 25px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #270082;
+}

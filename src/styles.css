@@ -46,7 +46,7 @@ h1 {
 .currently {
   position: relative;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: #270082;
   font-weight: 500;
   margin: 10px;
@@ -62,7 +62,7 @@ h1 {
   left: 25px;
   padding: 10px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #270082;
 }

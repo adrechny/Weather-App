@@ -51,6 +51,14 @@ h1 {
   font-weight: 500;
   margin: 10px;
 }
+.active {
+  color: #270082;
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: none;
+}
 .forecast {
   margin-top: 15px;
   margin-bottom: 15px;

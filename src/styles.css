@@ -51,6 +51,11 @@ h1 {
   font-weight: 500;
   margin: 10px;
 }
+.units {
+  font-size: 19px;
+  position: relative;
+  top: -8px;
+}
 .active {
   color: #270082;
   cursor: default;

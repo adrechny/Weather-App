@@ -64,6 +64,10 @@ h1 {
 .active:hover {
   text-decoration: none;
 }
+.humidty,
+.wind {
+  font-size: 25px;
+}
 .forecast {
   margin-top: 15px;
   margin-bottom: 15px;

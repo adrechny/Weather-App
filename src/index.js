@@ -22,7 +22,7 @@ today.innerHTML = `${currentDay}`;
 let timeNow = document.querySelector(".time");
 timeNow.innerHTML = `${currentHours}:${currentMinutes}`;
 
-function displayForecast() {
+function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
 
   let days = ["Thu", "Fri", "Sat", "Sun"];
@@ -48,6 +48,12 @@ function displayForecast() {
   forecastElement.innerHTML = forecastHTML;
 }
 
+function getForecast(coordinates) {
+  let apiKey = "3f49c533f868ff71e6ec9af59e37e163";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&unit=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
 function showWeatherDetails(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   celsiusTemperature = response.data.main.temp;
@@ -68,6 +74,8 @@ function showWeatherDetails(response) {
   document
     .querySelector("#icon")
     .setAttribute("alt", response.data.weather[0].description);
+
+  getForecast(response.data.coord);
 }
 function searchCity(city) {
   let apiKey = "3f49c533f868ff71e6ec9af59e37e163";

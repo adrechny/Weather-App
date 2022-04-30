@@ -64,6 +64,11 @@ h1 {
 .active:hover {
   text-decoration: none;
 }
+.update-info,
+.day,
+.time {
+  font-size: 20px;
+}
 .humidty,
 .wind {
   font-size: 25px;

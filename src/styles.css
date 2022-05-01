@@ -2,16 +2,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .weather-app {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(161, 255, 206) 0%,
-    rgb(250, 255, 209) 90%
-  );
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   position: relative;
   top: 100px;
   left: 200px;
   width: 900px;
-  border: 2px solid #270082;
+  border: 2px solid #effffd;
   border-radius: 70px;
 }
 .search-bar,
@@ -23,7 +19,8 @@ body {
   margin-top: 15px;
 }
 .btn {
-  background-color: #1f5229;
+  color: #000000;
+  background-color: #69ea83;
   padding: 3px 20px;
   position: relative;
   top: -2px;
@@ -40,14 +37,14 @@ h1 {
   position: relative;
   text-align: center;
   margin-top: 1px;
-  color: #270082;
+  color: #effffd;
   font-size: 50px;
 }
 .currently {
   position: relative;
   text-align: center;
   font-size: 30px;
-  color: #270082;
+  color: #effffd;
   font-weight: 500;
   margin: 10px;
 }
@@ -71,7 +68,7 @@ h1 {
   margin-bottom: 15px;
 }
 .col-2 {
-  border: 2px solid #270082;
+  border: 2px solid #effffd;
   border-radius: 30px;
   position: relative;
   left: 25px;
@@ -79,9 +76,16 @@ h1 {
   margin: 10px;
   font-size: 20px;
   font-weight: 500;
-  color: #270082;
+  color: #effffd;
 }
 footer {
   text-align: center;
   font-size: 12px;
+  color: #effffd;
+}
+.link {
+  color: #effffd;
+}
+.link:hover {
+  color: #8cf8ec;
 }
